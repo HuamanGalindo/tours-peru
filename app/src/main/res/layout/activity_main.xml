@@ -47,6 +47,32 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/portadaCusco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/cusco"
+                        android:onClick="btnCusco"
+                        />
+                    <TextView
+                        android:id="@+id/txv_cusco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/colorNombreDepartamento"
+                        android:gravity="bottom|end"
+                        android:text="@string/name_departamento_cuzco"
+                        android:paddingRight="@dimen/name_departamento_size_paddin_right"
+                        android:textSize="@dimen/name_departamento_size"
+                        android:textStyle="bold"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
                         android:id="@+id/portadaAmazonas"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -65,9 +91,9 @@
                         android:textSize="@dimen/name_departamento_size"
                         android:textStyle="bold"
                         />
-
-
                 </RelativeLayout>
+
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

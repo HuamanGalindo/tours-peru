@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".cusco"></activity>
+        <activity android:name=".cusco" />
+        <activity android:name=".departamento.ayacucho" />
+        <activity android:name=".departamento.amazonas" />
+        <activity android:name=".departamento.arequipa"></activity>
     </application>
 
 </manifest>
