@@ -2,4 +2,8 @@
 <resources>
     <dimen name="name_departamento_size">20dp</dimen>
     <dimen name="name_departamento_size_paddin_right">20dp</dimen>
+    <dimen name="paddin_left_hotel">40dp</dimen>
+    <dimen name="paddin_right_hotel">40dp</dimen>
+    <dimen name="paddinRight_item_hotel_rest_aero">50dp</dimen>
+    <dimen name="paddingTop_item_hotel_rest_aero">50dp</dimen>
 </resources>

@@ -30,17 +30,50 @@
 
         </RelativeLayout>
 
-        <!-- -->
+        <!-- para la zonas turisticas-->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@color/colorfondo"
+            android:paddingLeft="@dimen/paddin_left_hotel"
+            android:paddingRight="@dimen/paddin_right_hotel"
             >
+            <ImageView
+                android:id="@+id/img_restaurante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/restaurante"
+                android:paddingRight="@dimen/paddinRight_item_hotel_rest_aero"
+                android:paddingTop="@dimen/paddingTop_item_hotel_rest_aero"
+                android:onClick="restaurante"
 
-            <com.google.android.gms.maps.MapView
-                android:id="@+id/mapView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentTop="true" />
+                />
+            <ImageView
+            android:id="@+id/img_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hotel"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/paddinRight_item_hotel_rest_aero"
+            android:paddingTop="@dimen/paddingTop_item_hotel_rest_aero"
+                />
+
+            <ImageView
+                android:id="@+id/redes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/aeropuerto"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingRight="@dimen/paddinRight_item_hotel_rest_aero"
+                android:paddingTop="@dimen/paddingTop_item_hotel_rest_aero"
+                />
+
+
+
+
         </RelativeLayout>
 
         <ScrollView
@@ -53,7 +86,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
 
                 android:orientation="vertical">
 
