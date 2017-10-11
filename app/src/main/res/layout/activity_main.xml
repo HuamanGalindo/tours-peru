@@ -54,6 +54,17 @@
                         android:background="@drawable/amazonas"
                         android:onClick="btnAmazonas"
                         />
+                    <TextView
+                        android:id="@+id/txv_Amazonas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/colorNombreDepartamento"
+                        android:gravity="bottom|end"
+                        android:text="@string/name_departamento_amazonas"
+                        android:paddingRight="@dimen/name_departamento_size_paddin_right"
+                        android:textSize="@dimen/name_departamento_size"
+                        android:textStyle="bold"
+                        />
 
 
                 </RelativeLayout>
@@ -69,7 +80,20 @@
                         android:layout_centerInParent="true"
                         android:background="@drawable/arequipa"
                         android:onClick="btnArequipa"
+
                         />
+                    <TextView
+                        android:id="@+id/txv_Arequipa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/colorNombreDepartamento"
+                        android:gravity="bottom|end"
+                        android:paddingRight="@dimen/name_departamento_size_paddin_right"
+                    android:textSize="@dimen/name_departamento_size"
+                        android:text="@string/name_departamento_arequipa"
+                        android:textStyle="bold"
+
+                    />
 
                 </RelativeLayout>
 
@@ -85,6 +109,21 @@
                         android:layout_centerInParent="true"
                         android:background="@drawable/ayacucho"
                         android:onClick="btnAyacucho"
+                        android:text="@string/name_departamento_ayacucho"
+                        android:paddingRight="@dimen/name_departamento_size_paddin_right"
+                        android:textSize="@dimen/name_departamento_size"
+                        />
+                    <TextView
+                        android:id="@+id/txv_Ayacucho"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/colorNombreDepartamento"
+                        android:gravity="bottom|end"
+                        android:paddingRight="@dimen/name_departamento_size_paddin_right"
+                        android:textSize="@dimen/name_departamento_size"
+                        android:text="@string/name_departamento_ayacucho"
+                        android:textStyle="bold"
+
                         />
 
                 </RelativeLayout>
