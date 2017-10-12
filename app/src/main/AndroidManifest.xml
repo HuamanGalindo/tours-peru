@@ -19,7 +19,8 @@
         <activity android:name=".cusco" />
         <activity android:name=".departamento.ayacucho" />
         <activity android:name=".departamento.amazonas" />
-        <activity android:name=".departamento.arequipa"></activity>
+        <activity android:name=".departamento.arequipa" />
+        <activity android:name=".reserva_vuelo"></activity>
     </application>
 
 </manifest>

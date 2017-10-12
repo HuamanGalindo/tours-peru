@@ -6,4 +6,13 @@ El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproduci
     <string name="name_departamento_arequipa">AREQUIPA</string>
     <string name="name_departamento_ayacucho">AYACUCHO</string>
     <string name="name_departamento_cuzco">CUSCO</string>
+    <string name="correo_vuelo_persona">Email</string>
+    <string name="lugarVuelo">lugar</string>
+    <string name="fecha_vuelo">fecha de viaje</string>
+    <string name="revervar_vuelo">reservar vuelo</string>
+    <string name="fecha_vuelo_retorno">Fecha de retorno</string>
+    <string name="cantidad_de_reserva">cantidad de reserva</string>
+    <string name="tipo_pago">tipo pago</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
 </resources>

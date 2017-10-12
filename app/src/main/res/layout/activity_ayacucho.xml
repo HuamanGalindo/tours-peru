@@ -69,6 +69,7 @@
                 android:layout_alignParentEnd="true"
                 android:paddingRight="@dimen/paddinRight_item_hotel_rest_aero"
                 android:paddingTop="@dimen/paddingTop_item_hotel_rest_aero"
+                android:onClick="reserva_vuelo"
                 />
 
 

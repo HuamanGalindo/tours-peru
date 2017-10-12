@@ -6,6 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarDivider">@color/colorfondo</item>
+    </style>
+
+    <style name="efecto_desing_campos" parent="Theme.AppCompat.Light" >
+
+
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorfondo</item>
     </style>
 
 </resources>

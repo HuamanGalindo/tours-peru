@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cuscoDescription">la ciudadad de cusco</string>
+    <string name="lugarVuelo">lugar</string>
+    <string name="fecha_vuelo">fecha de viaje</string>
+    <string name="revervar_vuelo">reservar vuelo</string>
+    <string name="fecha_vuelo_retorno">Fecha de retorno</string>
+    <string name="cantidad_de_reserva">cantidad de reserva</string>
+    <string name="tipo_pago">tipo pago</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
 </resources>
