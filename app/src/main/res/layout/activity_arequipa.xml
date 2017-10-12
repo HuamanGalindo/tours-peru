@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.cibertpoet.tours_peru.departamento.arequipa">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/linearLayout">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="clip_horizontal">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/plazadearmararequipa" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_toRightOf="@+id/linearLayout"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:weightSum="1">
+
+
+                        <TextView
+                            android:id="@+id/de4scri"
+                            android:layout_width="match_parent"
+                            android:layout_height="157dp"
+                            android:paddingBottom="40dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="35dp"
+                            android:text="arequipa la ciudad delos grandes reyes de de la mejores culturas de mundo actual de la prehistoria que esperas.."
+                            android:textAlignment="center"
+                            android:textColor="@color/colorNombreDepartamento" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            <!-- segunda imagen-->
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
